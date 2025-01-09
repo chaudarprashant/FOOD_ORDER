@@ -46,7 +46,7 @@ const NavLogo = styled(LinkR)`
   color: inherit;
 `;
 const Logo = styled.img`
-  height: 34px;
+  height: 110px;  // Increased height to make logo bigger
 `;
 const NavItems = styled.ul`
   width: 100%;
@@ -154,7 +154,7 @@ const Navbar = ({ setOpenAuth, openAuth, currentUser }) => {
           <MenuRounded style={{ color: "inherit" }} />
         </MobileIcon>
         <NavLogo to="/">
-          <Logo src={LogoImg} />
+          <Logo src={LogoImg}/>
         </NavLogo>
 
         <MobileIcons>

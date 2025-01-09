@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { category } from "../utils/data";
-import HeaderImage from "../utils/Images/Header.png";
+import HeaderImage from "../utils/Images/home.png";
 import ProductCategoryCard from "../components/cards/ProductCategoryCard";
 import ProductsCard from "../components/cards/ProductsCard";
 import { getAllProducts } from "../api";
